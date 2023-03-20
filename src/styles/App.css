@@ -1,0 +1,124 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Waiter {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Waiter h2 {
+  margin-top: 0;
+}
+
+.Waiter-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.Waiter-input label {
+  width: 120px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.Waiter-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.Waiter button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Waiter button:hover {
+  background-color: #2e8b57;
+}
+
+.TableList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.TableItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.TableItem:hover {
+  background-color: #f5f5f5;
+}
+
+.TableItem h3 {
+  margin: 0;
+}
+
+.TableItem p {
+  margin: 0;
+  font-weight: bold;
+}
+ 
+.TableItem.available {
+  color: #4caf50;
+}
+
+.TableItem.unavailable {
+  color: #f44336;
+}
+
+.Table {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Table-item {
+  width: calc(50% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Table-item h3 {
+  margin-top: 0;
+}

@@ -1,0 +1,43 @@
+.TableItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .TableItem img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    margin-right: 15px;
+  }
+  
+  .TableItem-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .TableItem-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .TableItem-info p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+  }
+  
+  .TableItem-quantity {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+  }
+  

@@ -1,0 +1,27 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Header-title h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .Header-title p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .Header-logo img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+  }
+  
